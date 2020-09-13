@@ -33,11 +33,11 @@ Project is created with:
   * multiple character delimiter
 
 ## Initialization
-* Include the library at beginning of the code.
+1. Include the library at beginning of the code.
 ```
 #include "SplitString.h";
 ```
-* Create an object of the SplitString.
+2. Create an object of the SplitString.
 ```
 SplitString splitString;    //Rename the object as you wish.
 ```
