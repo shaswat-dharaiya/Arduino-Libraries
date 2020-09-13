@@ -42,21 +42,21 @@ MPU mpuGyro(false);   //false will activate Gyroscope.
 ```
 
 ## Functions
-  * Inside setup()
-     startMPU: <b>Initialization for MPU6050.</b>
-    ```
-      Wire.begin();
-      mpuAccel.startMPU();
-      mpuGyro.startMPU();  
-    ```
+  * Inside setup()<br>
+  startMPU: <b>Initialization for MPU6050.</b>
+  ```
+    Wire.begin();
+    mpuAccel.startMPU();
+    mpuGyro.startMPU();  
+  ```
   * Inside loop()  
-     startReadMPU: <b>Starts to read from the MPU6050.</b>
-    ```
-      mpuAccel.startReadMPU();
-      mpuGyro.startReadMPU();
-    ```
-     readMPU: <b>Reads the values from MPU6050 and stores it in float array.</b>
-    ```
-    mpuAccel.readMPU(accel);
-    mpuGyro.readMPU(gyro);
-    ```
+   startReadMPU: <b>Starts to read from the MPU6050.</b>
+  ```
+    mpuAccel.startReadMPU();
+    mpuGyro.startReadMPU();
+  ```
+   readMPU: <b>Reads the values from MPU6050 and stores it in float array.</b>
+  ```
+  mpuAccel.readMPU(accel);
+  mpuGyro.readMPU(gyro);
+  ```
