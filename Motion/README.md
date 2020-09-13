@@ -33,6 +33,7 @@ Project is created with:
 * Declare the digital pins & pwm pins.
 ```
 //Before setup()
+//Change the pin number as per your use.
 //Use Digital pins
 int motxf = 22;
 int motyf = 26;
