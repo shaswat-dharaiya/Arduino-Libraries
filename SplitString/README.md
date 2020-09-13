@@ -45,7 +45,7 @@ SplitString splitString;    //Rename the object as you wish.
 ## Functions
 * totalInstances: <b>Count total instances of a character in a String.</b>
 ```
-int len = splitString.totalInstances(delimiter_string,delimiter2);
+int len = splitString.totalInstances(delimiter_string,delimiter);
 ```
 * stringToBeSplit: <b>single character</b>
 ```
@@ -53,7 +53,7 @@ String str = splitString.stringToBeSplit(delimiter_string,delimiter,index);
 ```
 * stringToBeSplit: <b>multiple characters</b>
 ```
-for(int i=0; i<splitString.totalInstances(delimiter_string,delimiter1); i++)
+for(int i=0; i<splitString.totalInstances(delimiter_string,delimiter2); i++)
 {
     String new_string = splitString.stringToBeSplit(data_multi_deli,delimiter2,i);
 
