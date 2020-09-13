@@ -72,7 +72,7 @@ splitString.makeStringArray(delimiter_string,str_array,delimiter);
 ```
 int len1 = splitString.totalInstances(delimiter_string,delimiter2);
 int len2 = (splitString.totalInstances(splitString.stringToBeSplit(delimiter_string,delimiter2,0),delimiter1));
-int len = len1*len;
+int len = len1*len2;
 String str_array[len];
 ```
 ```
