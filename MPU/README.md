@@ -55,7 +55,7 @@ startReadMPU: <b>Starts to read from the MPU6050.</b>
 mpuAccel.startReadMPU();
 mpuGyro.startReadMPU();
 ```
-readMPU: <b>Reads the values from MPU6050 and stores it in float array.</b>
+  readMPU: <b>Reads the values from MPU6050 and stores it in float array.</b>
 ```
 mpuAccel.readMPU(accel);
 mpuGyro.readMPU(gyro);
