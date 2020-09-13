@@ -23,7 +23,7 @@ Project is created with:
 ## To-Do
 * Total instances of a character in a String.
 * String split containing single character delimiter.
- * Ex : "A1:B1"
+  * Ex : "A1:B1"
 * String split containing multiple characters delimiter.
   * Ex : "A1:B1;C1:D1;A2:B2;C2:D2;"
 * 1D String Array:
