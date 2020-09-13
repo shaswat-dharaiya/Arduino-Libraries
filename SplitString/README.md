@@ -55,13 +55,13 @@ String str = splitString.stringToBeSplit(delimiter_string,delimiter,index);
 ```
 for(int i=0; i<splitString.totalInstances(delimiter_string,delimiter2); i++)
 {
-    String new_string = splitString.stringToBeSplit(data_multi_deli,delimiter2,i);
+  String new_string = splitString.stringToBeSplit(data_multi_deli,delimiter2,i);
 
-    for(int j=0; j<splitString.totalInstances(new_string,delimiter1); j++)
-    {
-      Serial.println(splitString.stringToBeSplit(new_string,delimiter1,j));
-    }
+  for(int j=0; j<splitString.totalInstances(new_string,delimiter1); j++)
+  {
+    Serial.println(splitString.stringToBeSplit(new_string,delimiter1,j));
   }
+}
 ```
 * makeStringArray: <b>1D String Array with single character</b>
 ```
