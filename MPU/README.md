@@ -58,5 +58,5 @@ MPU mpuGyro(false);   //false will activate Gyroscope.
      readMPU: <b>Reads the values from MPU6050 and stores it in float array.</b>
     ```
     mpuAccel.readMPU(accel);
-      mpuGyro.readMPU(gyro);
+    mpuGyro.readMPU(gyro);
     ```
