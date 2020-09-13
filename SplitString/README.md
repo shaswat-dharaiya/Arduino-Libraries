@@ -78,10 +78,10 @@ String str_array[len];
 ```
 for(int i=0; i<splitString.totalInstances(delimiter_string,delimiter2); i++)
 {
-    String new_string = splitString.stringToBeSplit(delimiter_string,delimiter2,i);
-    for(int j=0; j<splitString.totalInstances(new_string,delimiter1); j++)
-    {
-      str_array[2*i+j] = splitString.stringToBeSplit(new_string,delimiter1,j);
-    }
+  String new_string = splitString.stringToBeSplit(delimiter_string,delimiter2,i);
+  for(int j=0; j<splitString.totalInstances(new_string,delimiter1); j++)
+  {
+    str_array[2*i+j] = splitString.stringToBeSplit(new_string,delimiter1,j);
   }
+}
 ```
