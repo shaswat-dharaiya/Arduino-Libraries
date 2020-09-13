@@ -43,15 +43,15 @@ SplitString splitString;    //Rename the object as you wish.
 ```
 
 ## Functions
-1. totalInstances: <b>Count total instances of a character in a String.</b>
+1. totalInstances(String str, char delimiter): <b>Count total instances of a character in a String.</b>
 ```
 int len = splitString.totalInstances(delimiter_string,delimiter);
 ```
-2. stringToBeSplit: <b>single character</b>
+2. stringToBeSplit(String str, char delimiter, int index): <b>single character</b>
 ```
 String str = splitString.stringToBeSplit(delimiter_string,delimiter,index);
 ```
-3. stringToBeSplit: <b>multiple characters</b>
+3. stringToBeSplit(String str, char delimiter, int index): <b>multiple characters</b>
 ```
 for(int i=0; i<splitString.totalInstances(delimiter_string,delimiter2); i++)
 {
@@ -63,12 +63,12 @@ for(int i=0; i<splitString.totalInstances(delimiter_string,delimiter2); i++)
   }
 }
 ```
-4. makeStringArray: <b>1D String Array with single character</b>
+4. makeStringArray(String str, String arr[], char delimiter): <b>1D String Array with single character</b>
 ```
 String str_array[splitString.totalInstances(delimiter_string,delimiter)];  
 splitString.makeStringArray(delimiter_string,str_array,delimiter);  
 ```
-5. stringToBeSplit: <b>1D String Array with multiple characters</b>
+5. stringToBeSplit(String str, char delimiter, int index): <b>1D String Array with multiple characters</b>
 ```
 int len1 = splitString.totalInstances(delimiter_string,delimiter2);
 int len2 = (splitString.totalInstances(splitString.stringToBeSplit(delimiter_string,delimiter2,0),delimiter1));
