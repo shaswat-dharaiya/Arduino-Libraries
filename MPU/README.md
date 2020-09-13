@@ -9,7 +9,7 @@
 * [Functions](#functions)
 
 ## General info
-This Library provides additional functionality for String manipulation for Arduino programs.
+This Library provides additional functionality for MPU6050 IMU for Arduino programs.
 
 ## Technology
 Project is created with:
@@ -35,7 +35,7 @@ Project is created with:
 float accel[3];
 float gyro[3];
 ```
-* Create an object of the SplitString.
+* Create an object of the MPU.
 ```
 MPU mpuAccel(true);   //true wil activate Accelerometer.
 MPU mpuGyro(false);   //false will activate Gyroscope.
@@ -43,19 +43,19 @@ MPU mpuGyro(false);   //false will activate Gyroscope.
 
 ## Functions
 * Inside setup()<br>
-startMPU: <b>Initialization for MPU6050.</b>
+1. startMPU: <b>Setup for MPU6050.</b>
 ```
 Wire.begin();
 mpuAccel.startMPU();
 mpuGyro.startMPU();  
 ```
 * Inside loop()  
-startReadMPU: <b>Starts to read from the MPU6050.</b>
+1. startReadMPU: <b>Starts to read from the MPU6050.</b>
 ```
 mpuAccel.startReadMPU();
 mpuGyro.startReadMPU();
 ```
-  readMPU: <b>Reads the values from MPU6050 and stores it in float array.</b>
+2. readMPU: <b>Reads the values from MPU6050 and stores it in float array.</b>
 ```
 mpuAccel.readMPU(accel);
 mpuGyro.readMPU(gyro);
