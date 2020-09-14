@@ -24,7 +24,7 @@ Project is created with:
 * Read from Gyroscope.
 
 ## Initialization
-* Include the library at beginning of the code.
+1. Include the library at beginning of the code.
 ```
 #include "Wire.h";    //Communicates with MPU6050 over I2C.
 #include "MPU.h";
@@ -35,7 +35,7 @@ Project is created with:
 float accel[3];
 float gyro[3];
 ```
-* Create an object of the MPU.
+2. Create an object of the MPU.
 ```
 MPU mpuAccel(true);   //true wil activate Accelerometer.
 MPU mpuGyro(false);   //false will activate Gyroscope.
@@ -43,19 +43,19 @@ MPU mpuGyro(false);   //false will activate Gyroscope.
 
 ## Functions
 * Inside setup()<br>
-1. startMPU: <b>Setup for MPU6050.</b>
+1. startMPU(): <b>Setup for MPU6050.</b>
 ```
 Wire.begin();
 mpuAccel.startMPU();
 mpuGyro.startMPU();  
 ```
 * Inside loop()  
-1. startReadMPU: <b>Starts to read from the MPU6050.</b>
+1. startReadMPU(): <b>Starts to read from the MPU6050.</b>
 ```
 mpuAccel.startReadMPU();
 mpuGyro.startReadMPU();
 ```
-2. readMPU: <b>Reads the values from MPU6050 and stores it in float array.</b>
+2. readMPU(float flt[]): <b>Reads the values from MPU6050 and stores it in float array.</b>
 ```
 mpuAccel.readMPU(accel);
 mpuGyro.readMPU(gyro);
