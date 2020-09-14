@@ -13,8 +13,8 @@ Motion::Motion(int x, int y, int xf, int yf, int xr, int yr)
 
 void Motion::setupMotion()
 {
-  pinMode(x, OUTPUT);
-  pinMode(y, OUTPUT);
+  pinMode(x1, OUTPUT);
+  pinMode(y1, OUTPUT);
   pinMode(xf1, OUTPUT);
   pinMode(yf1, OUTPUT);
   pinMode(xr1, OUTPUT);
