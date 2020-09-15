@@ -4,8 +4,8 @@
 * [General info](#general-info)
 * [Technology](#technology)
 * [Features](#features)
-* [Initialization](#initialization)
 * [To-Do](#to-Do)
+* [Initialization](#initialization)
 * [Functions](#functions)
 
 ## General info
