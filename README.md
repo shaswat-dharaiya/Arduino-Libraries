@@ -9,4 +9,6 @@ This repository comprises of some major Arduino libraries<br> I have worked on o
 ## Technology
 Librariess are created with:
 * Arduino
-* MPU6050
+
+## License
+The libraries are licensed under MIT License.
