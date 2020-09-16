@@ -12,8 +12,8 @@
 This Library provides additional functionality for MPU6050 IMU for Arduino programs.
 
 ## Technology
-Project is created with:
-* Arduino
+Librariess are created with:
+* C/C++
 * MPU6050
 
 ## Features

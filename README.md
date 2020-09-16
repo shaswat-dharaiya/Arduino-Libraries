@@ -8,7 +8,7 @@ This repository comprises of some major Arduino libraries<br> I have worked on o
 
 ## Technology
 Librariess are created with:
-* Arduino
+* C/C++
 
 ## License
 The libraries are licensed under MIT License.

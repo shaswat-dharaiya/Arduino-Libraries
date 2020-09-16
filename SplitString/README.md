@@ -12,8 +12,8 @@
 This library provides additional functionality for String manipulation for Arduino programs.
 
 ## Technology
-Project is created with:
-* Arduino
+Librariess are created with:
+* C/C++
 
 ## Features
 * Count the instances of a character/delimiter.

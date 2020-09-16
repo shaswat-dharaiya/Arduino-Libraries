@@ -12,8 +12,8 @@
 This Library provides additional functionality for 2D Motion with motor module for Arduino programs.
 
 ## Technology
-Project is created with:
-* Arduino
+Librariess are created with:
+* C/C++
 
 ## Features
 * This library allows you to directly give directional commands to your motor module on your Arduino.
